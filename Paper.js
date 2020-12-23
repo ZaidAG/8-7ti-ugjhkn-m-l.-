@@ -8,7 +8,7 @@ class Paper{
       }
     this.radius=radius;
     this.body=Matter.Bodies.circle(x,y,this.radius,options)
-    this.image=loadImage("sprites/paper.png")
+    this.image=loadImage("paper.png")
     
     World.add(world, this.body);
   }
